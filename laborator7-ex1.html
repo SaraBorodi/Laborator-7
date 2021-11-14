@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Borodi Sara Damaris</title>
+
+<script>
+function Viitor() {
+  document.getElementById("par1").innerHTML = "Ing. Borodi Sara Damaris";
+  
+  document.getElementById("imagine").src = "bsd2.jfif";
+  
+  document.getElementById("tabel").rows[0].cells[0].innerHTML="Realizari";
+    document.getElementById("tabel").rows[0].cells[1].innerHTML="Idealuri";
+    document.getElementById("tabel").rows[0].cells[2].innerHTML="Sugestii";
+    document.getElementById("tabel").rows[1].cells[0].innerHTML="imbunatatirea cunostintelor";
+    document.getElementById("tabel").rows[1].cells[1].innerHTML="Luarea licentei";
+	document.getElementById("tabel").rows[1].cells[2].innerHTML="Studiu din timp";
+	document.getElementById("tabel").rows[2].cells[0].innerHTML="intelegerea programarii";
+    document.getElementById("tabel").rows[2].cells[1].innerHTML="Finalizarea Masterului";
+    document.getElementById("tabel").rows[2].cells[2].innerHTML="Rezolvarea tuturor temelor";
+	document.getElementById("tabel").rows[3].cells[0].innerHTML="Trecerea tuturor examenelor";
+    document.getElementById("tabel").rows[3].cells[1].innerHTML="Finalizarea Doctoratului";
+	document.getElementById("tabel").rows[3].cells[2].innerHTML="prezenta la cursuri/laboratoare/seminarii";
+	document.getElementsByTagName("BODY")[0].style.backgroundColor="purple";
+	}
+	
+
+function arVarst()
+{
+      var azi=new Date();
+	  var varstMea;
+	  var anNasc=document.getElementById("varsta").innerHTML;
+	  varstMea=azi.getFullYear()-parseInt(2002);
+	  document.getElementById("varsta").innerHTML=19;
+}
+
+
+  
+
+</script>
+
+
+<style>
+body {
+  background-color: linen;
+}
+h1 {
+  color: brown;
+  text-align: left;}
+  table, th, td {
+  border: 1px solid brown;
+}
+#par1{ color:pink;
+text-align: center;
+}
+ol {
+  list-style-type: circle;
+}
+
+
+img{  border-radius: 25px;
+width: 600px;
+  height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: maroon;
+
+}
+
+li {
+  color: maroon;
+
+}
+
+
+p {
+  color: brown;
+
+}
+
+</style>
+</head>
+<body>
+
+
+
+<h1 id="par1">Borodi Sara Damaris</h1>
+
+<img id="imagine" src="bsd.jfif" alt="Italian Trulli">
+<button type="button" onclick="Viitor()">Alta viata</button>
+
+<h1 onmouseover="arVarst()" id="varsta">2002</h1>
+
+
+<h1>E-mail:Borodi.Gr.Sara@student.utcluj.ro </h1>
+<h1>Citat: Educatia este cea mai puternica arma pe care o puteti folosi pentru a schima lumea. </h1>
+<table id="tabel" >
+  <tr>
+    <th>Disciplina</th>
+    <th>Link</th>
+	<th>Anul de studiu</th>
+  </tr>
+  <tr>
+    <td>Informatica Aplicata</td>
+    <td>
+	<h3><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/06.pdf">Informatica Aplicata</a></h3>
+	</td>
+	<td>Anul 1</td>
+  </tr>
+  <td>Fizica</td>
+    <td>
+	<h3><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/03.pdf">Fizica</a></h3>
+	</td>
+	<td>Anul 1</td>
+  </tr>
+	
+  <tr>
+    <td>Componente si circuite pasive</td>
+	<td>
+	<h3><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/05.pdf">Componente si circuite pasive</a></h3>
+	</td>
+    
+	<td>Anul 1</td>
+  </tr>
+</table>
+<h2>Lista pasiunilor</h2>
+<ol>
+  <li>Muzica</li>
+  <li>Lectura</li>
+  <li>Drumetii</li>
+</ol>
+</body>
+</html>
